@@ -27,9 +27,9 @@
             // | PLAY  | LCTL | LALT | LGUI | LOWR |     SPACE    |  RAIS | LARW | UARW | DARW  |  RARW |
 
             bindings = <
-&gresc     &mt LS(Q) Q  &kp W     &kp E     &kp R  &kp T     &kp Y        &kp U  &kp I      &kp O     &kp P     &kp BSPC
-&kp TAB    &kp A        &kp S     &kp D     &kp F  &kp G     &kp H        &kp J  &kp K      &kp L     &kp SEMI  &mt RSHFT RET
-&kp LSHFT  &kp Z        &kp X     &kp C     &kp V  &kp B     &kp N        &kp M  &kp COMMA  &kp DOT   &kp FSLH  &kp APOS
+&gresc     &mt LS(Q) Q  &mt LS(W) W  &mt LS(E) E  &mt LS(R) R  &mt LS(T) T  &mt LS(Y) Y  &mt LS(U) U  &mt LS(I) I  &mt LS(O) O  &mt LS(P) P  &kp BSPC
+&kp TAB    &kp A        &kp S      &kp D     &kp F  &kp G     &kp H        &kp J  &kp K      &kp L     &kp SEMI  &mt RSHFT RET
+&kp LSHFT  &kp Z        &kp X      &kp C     &kp V  &kp B     &kp N        &kp M  &kp COMMA  &kp DOT   &kp FSLH  &kp APOS
 &kp C_PP   &kp LCTRL    &kp LALT  &kp LGUI  &mo 1  &kp BSPC  &lt 4 SPACE  &mo 2  &kp LEFT   &kp DOWN  &kp UP    &kp RIGHT
             >;
 

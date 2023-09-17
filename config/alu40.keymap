@@ -27,10 +27,10 @@
             // | PLAY  | LCTL | LALT | LGUI | LOWR |     SPACE    |  RAIS | LARW | UARW | DARW  |  RARW |
 
             bindings = <
-&gresc     &mt LS(Q) Q  &mt LS(W) W  &mt LS(E) E  &mt LS(R) R  &mt LS(T) T  &mt LS(Y) Y  &mt LS(U) U  &mt LS(I) I  &mt LS(O) O  &mt LS(P) P  &kp BSPC
-&kp TAB    &mt LS(A) A  &mt LS(S) S  &mt LS(D) D  &mt LS(F) F  &mt LS(G) G  &mt LS(H) H  &mt LS(J) J  &mt LS(K) K  &mt LS(L) L  &kp SEMI     &mt RSHFT RET
-&kp LSHFT  &mt LS(Z) Z  &mt LS(X) X  &mt LS(C) C  &mt LS(V) V  &mt LS(B) B  &mt LS(N) N  &mt LS(M) M  &kp COMMA    &kp DOT      &kp FSLH     &kp APOS
-&kp C_PP   &kp LCTRL    &kp LALT     &kp LGUI     &mo 1        &kp BSPC     &lt 4 SPACE  &mo 2        &kp LEFT     &kp DOWN     &kp UP       &kp RIGHT
+&gresc     &mt LS(Q) Q  &mt LS(W) W  &mt LS(E) E  &mt LS(R) R  &mt LS(T) T  &mt LS(Y) Y  &mt LS(U) U  &mt LS(I) I          &mt LS(O) O      &mt LS(P) P        &kp BSPC
+&kp TAB    &mt LS(A) A  &mt LS(S) S  &mt LS(D) D  &mt LS(F) F  &mt LS(G) G  &mt LS(H) H  &mt LS(J) J  &mt LS(K) K          &mt LS(L) L      &mt LS(SEMI) SEMI  &mt RSHFT RET
+&kp LSHFT  &mt LS(Z) Z  &mt LS(X) X  &mt LS(C) C  &mt LS(V) V  &mt LS(B) B  &mt LS(N) N  &mt LS(M) M  &mt LS(COMMA) COMMA  &mt LS(DOT) DOT  &mt LS(FSLH) FSLH  &mt LS(APOS) APOS
+&kp C_PP   &kp LCTRL    &kp LALT     &kp LGUI     &mo 1        &kp BSPC     &lt 4 SPACE  &mo 2        &kp LEFT             &kp DOWN         &kp UP             &kp RIGHT
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;

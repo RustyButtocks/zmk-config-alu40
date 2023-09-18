@@ -9,17 +9,16 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/rgb.h>
 
+&mt {
+    tapping-term-ms = <400>;
+};
+
 / {
     behaviors {
     };
 
     macros {
     };
-
-    // Set the tapping-term duration
-    // &mt {
-    //     tapping-term-ms = <450>;
-    // };
 
     keymap {
         compatible = "zmk,keymap";

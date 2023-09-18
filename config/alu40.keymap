@@ -17,9 +17,9 @@
     };
 
     // Set the tapping-term duration
-    &mt {
-        tapping-term-ms = <450>;
-    };
+    // &mt {
+    //     tapping-term-ms = <450>;
+    // };
 
     keymap {
         compatible = "zmk,keymap";

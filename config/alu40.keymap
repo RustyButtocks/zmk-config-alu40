@@ -60,10 +60,10 @@
 
         lower {
             bindings = <
-&kp LS(GRAVE)  &kp LS(N1)  &kp LS(N2)  &kp LS(N3)  &kp LS(N4)  &kp LS(N5)  &kp LS(N6)  &kp LS(N7)  &kp LS(N8)  &kp LEFT_PARENTHESIS  &kp LS(N0)  &kp DEL
-&kp DEL        &kp F1      &kp F2      &kp F3      &kp F4      &kp F5      &kp F6      &kp UNDER   &kp PLUS    &kp LBRC              &kp RBRC    &kp PIPE
-&trans         &kp F7      &kp F8      &kp F9      &kp F10     &kp F11     &kp F12     &trans      &trans      &kp LBKT              &kp RBKT    &trans
-&trans         &trans      &trans      &trans      &trans      &trans      &trans      &mo 3       &kp C_PREV  &kp HOME              &kp END     &kp C_NEXT
+&kp LS(GRAVE)  &kp LS(N1)  &kp LS(N2)  &kp LS(N3)  &kp LS(N4)  &kp LS(N5)  &kp LS(N6)  &kp LS(N7)  &kp LS(N8)  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp DEL
+&kp DEL        &kp F1      &kp F2      &kp F3      &kp F4      &kp F5      &kp F6      &kp UNDER   &kp PLUS    &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp PIPE
+&trans         &kp F7      &kp F8      &kp F9      &kp F10     &kp F11     &kp F12     &trans      &trans      &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans
+&trans         &trans      &trans      &trans      &trans      &trans      &trans      &mo 3       &kp C_PREV  &kp HOME              &kp END                &kp C_NEXT
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PG_DN>;
@@ -71,10 +71,10 @@
 
         raise {
             bindings = <
-&kp GRAVE  &kp N1     &kp N2     &kp N3     &kp N4   &kp N5   &kp N6   &kp N7     &kp N8      &m_brackets   &kp N0        &kp BSPC
-&kp DEL    &kp KP_N4  &kp KP_N5  &kp KP_N6  &kp F4   &kp F5   &kp F6   &kp MINUS  &kp EQUAL   &kp LBKT      &kp RBKT      &kp BSLH
-&trans     &kp KP_N7  &kp KP_N8  &kp KP_N9  &kp F10  &kp F11  &kp F12  &trans     &trans      &trans        &trans        &trans
-&trans     &trans     &kp KP_N0  &trans     &mo 3    &trans   &trans   &trans     &kp C_PREV  &kp C_VOL_DN  &kp C_VOL_UP  &kp C_NEXT
+&kp GRAVE  &kp N1     &kp N2     &kp N3     &kp F1   &kp F2   &kp F3   &kp PLUS         &trans      &trans        &trans        &kp BSPC
+&kp DEL    &kp KP_N4  &kp KP_N5  &kp KP_N6  &kp F4   &kp F5   &kp F6   &kp MINUS        &kp EQUAL   &kp LBKT      &kp RBKT      &kp BSLH
+&trans     &kp KP_N7  &kp KP_N8  &kp KP_N9  &kp F10  &kp F11  &kp F12  &kp KP_MULTIPLY  &trans      &trans        &trans        &trans
+&trans     &trans     &kp KP_N0  &trans     &mo 3    &trans   &trans   &kp KP_DIVIDE    &kp C_PREV  &kp C_VOL_DN  &kp C_VOL_UP  &kp C_NEXT
             >;
 
             sensor-bindings = <&inc_dec_kp C_BRI_DEC C_BRI_INC>;

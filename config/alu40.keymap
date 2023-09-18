@@ -71,10 +71,10 @@
 
         raise {
             bindings = <
-&kp GRAVE  &kp N1     &kp N2     &kp N3     &kp F1   &kp F2   &kp F3   &kp PLUS         &trans      &trans        &trans        &kp BSPC
-&kp DEL    &kp KP_N4  &kp KP_N5  &kp KP_N6  &kp F4   &kp F5   &kp F6   &kp MINUS        &kp EQUAL   &kp LBKT      &kp RBKT      &kp BSLH
-&trans     &kp KP_N7  &kp KP_N8  &kp KP_N9  &kp F10  &kp F11  &kp F12  &kp KP_MULTIPLY  &trans      &trans        &trans        &trans
-&trans     &trans     &kp KP_N0  &trans     &mo 3    &trans   &trans   &mo 3            &kp C_PREV  &kp C_VOL_DN  &kp C_VOL_UP  &kp C_NEXT
+&kp GRAVE  &kp N1     &kp N2     &kp N3     &kp PLUS      &kp KP_MULTIPLY  &trans  &trans  &trans      &trans        &trans        &kp BSPC
+&kp DEL    &kp KP_N4  &kp KP_N5  &kp KP_N6  &kp MINUS     &kp KP_DIVIDE    &trans  &trans  &trans      &kp LBKT      &kp RBKT      &kp BSLH
+&trans     &kp KP_N7  &kp KP_N8  &kp KP_N9  &kp KP_EQUAL  &kp PERIOD       &trans  &trans  &trans      &trans        &trans        &trans
+&trans     &trans     &kp KP_N0  &trans     &mo 3         &trans           &trans  &mo 3   &kp C_PREV  &kp C_VOL_DN  &kp C_VOL_UP  &kp C_NEXT
             >;
 
             sensor-bindings = <&inc_dec_kp C_BRI_DEC C_BRI_INC>;

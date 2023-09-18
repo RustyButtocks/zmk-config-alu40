@@ -16,6 +16,11 @@
     macros {
     };
 
+    // Set the tapping-term time
+    &mt {
+        tapping-term-ms = <450>;
+    };
+
     keymap {
         compatible = "zmk,keymap";
 

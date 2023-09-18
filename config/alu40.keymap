@@ -16,7 +16,7 @@
     macros {
     };
 
-    // Set the tapping-term time
+    // Set the tapping-term duration
     &mt {
         tapping-term-ms = <450>;
     };

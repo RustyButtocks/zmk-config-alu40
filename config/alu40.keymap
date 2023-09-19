@@ -49,10 +49,10 @@
             //            >;
 
             bindings = <
-&gresc     &kp Q      &kp W     &kp E     &kp R  &kp T     &kp Y        &kp U  &kp I              &kp O     &kp P     &kp BSPC
-&kp TAB    &kp A      &kp S     &kp D     &kp F  &kp G     &kp H        &kp J  &kp K              &kp L     &kp SEMI  &mt RSHFT RET
-&kp LSHFT  &kp Z      &kp X     &kp C     &kp V  &kp B     &kp N        &kp M  &kp COMMA          &kp DOT   &kp FSLH  &kp APOS
-&kp C_PP   &kp LCTRL  &kp LALT  &kp LGUI  &mo 1  &kp BSPC  &lt 4 SPACE  &mo 2  &mt LA(LEFT) LEFT  &kp DOWN  &kp UP    &mt LA(RIGHT) RIGHT
+&gresc     &kp Q      &kp W     &kp E     &kp R  &kp T      &kp Y        &kp U  &kp I              &kp O     &kp P     &kp BSPC
+&kp TAB    &kp A      &kp S     &kp D     &kp F  &kp G      &kp H        &kp J  &kp K              &kp L     &kp SEMI  &mt RSHFT RET
+&kp LSHFT  &kp Z      &kp X     &kp C     &kp V  &kp B      &kp N        &kp M  &kp COMMA          &kp DOT   &kp FSLH  &kp APOS
+&kp C_PP   &kp LCTRL  &kp LALT  &kp LGUI  &mo 1  &lt 5 DEL  &lt 4 SPACE  &mo 2  &mt LA(LEFT) LEFT  &kp DOWN  &kp UP    &mt LA(RIGHT) RIGHT
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
@@ -60,10 +60,10 @@
 
         lower {
             bindings = <
-&kp LS(GRAVE)  &kp LS(N1)  &kp LS(N2)  &kp LS(N3)  &kp LS(N4)  &kp LS(N5)  &kp LS(N6)  &kp LS(N7)  &kp LS(N8)  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp DEL
-&kp DEL        &kp F1      &kp F2      &kp F3      &kp F4      &kp F5      &kp F6      &kp UNDER   &kp PLUS    &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp PIPE
-&trans         &kp F7      &kp F8      &kp F9      &kp F10     &kp F11     &kp F12     &trans      &trans      &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans
-&trans         &trans      &trans      &trans      &trans      &trans      &trans      &mo 3       &kp C_PREV  &kp HOME              &kp END                &kp C_NEXT
+&kp LS(GRAVE)  &trans           &trans       &trans    &kp UNDERSCORE  &trans       &trans     &trans         &trans        &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp DEL
+&kp TILDE      &kp EXCLAMATION  &kp AT_SIGN  &kp HASH  &kp DOLLAR      &kp PERCENT  &kp CARET  &kp AMPERSAND  &kp ASTERISK  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp PIPE
+&trans         &trans           &kp BSLH     &kp FSLH  &kp MINUS       &kp DOT      &kp EQUAL  &kp PLUS       &kp ASTERISK  &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans
+&trans         &trans           &trans       &trans    &trans          &kp DELETE   &kp SPACE  &mo 3          &kp C_PREV    &kp HOME              &kp END                &kp C_NEXT
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PG_DN>;
@@ -71,10 +71,10 @@
 
         raise {
             bindings = <
-&kp GRAVE  &kp N1     &kp N2     &kp N3     &kp PLUS      &kp KP_MULTIPLY  &trans  &trans     &trans      &trans        &trans        &kp BSPC
-&kp DEL    &kp KP_N4  &kp KP_N5  &kp KP_N6  &kp MINUS     &kp KP_DIVIDE    &trans  &kp MINUS  &trans      &kp LBKT      &kp RBKT      &kp BSLH
-&trans     &kp KP_N7  &kp KP_N8  &kp KP_N9  &kp KP_EQUAL  &kp PERIOD       &trans  &trans     &trans      &trans        &trans        &trans
-&trans     &trans     &kp KP_N0  &trans     &mo 3         &trans           &trans  &mo 3      &kp C_PREV  &kp C_VOL_DN  &kp C_VOL_UP  &kp C_NEXT
+&kp GRAVE  &trans  &trans     &trans    &trans     &trans   &trans     &trans    &trans           &trans        &trans        &kp BSPC
+&trans     &kp N1  &kp N2     &kp N3    &kp N4     &kp N5   &kp N6     &kp N7    &kp N8           &kp N9        &kp N0        &kp ENTER
+&trans     &trans  &trans     &kp FSLH  &kp MINUS  &kp DOT  &kp EQUAL  &kp PLUS  &kp KP_MULTIPLY  &trans        &trans        &trans
+&trans     &trans  &kp KP_N0  &trans    &mo 3      &trans   &trans     &mo 3     &kp C_PREV       &kp C_VOL_DN  &kp C_VOL_UP  &kp C_NEXT
             >;
 
             sensor-bindings = <&inc_dec_kp C_BRI_DEC C_BRI_INC>;
@@ -93,10 +93,19 @@
 
         layer_4 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans             &trans          &trans        &trans               &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &mt LA(LEFT) LEFT  &kp DOWN_ARROW  &kp UP_ARROW  &mt LA(RIGHT) RIGHT  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans             &trans          &trans        &trans               &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans             &trans          &kp PG_DN     &kp PG_UP            &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans             &trans                         &trans                     &trans               &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &mt LA(LEFT) LEFT  &mt LA(DOWN_ARROW) DOWN_ARROW  &mt LA(UP_ARROW) UP_ARROW  &mt LA(RIGHT) RIGHT  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans             &kp PAGE_DOWN                  &kp PAGE_UP                &trans               &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans             &trans                         &kp PG_DN                  &kp PG_UP            &trans
+            >;
+        };
+
+        layer_5 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans   &trans   &trans
+&kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans   &trans   &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans   &trans   &trans
             >;
         };
     };

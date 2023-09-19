@@ -60,7 +60,7 @@
 
         lower {
             bindings = <
-&kp LS(GRAVE)  &trans           &trans       &kp LA(NUMBER_3)  &kp UNDERSCORE  &trans       &trans     &trans         &trans        &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp DEL
+&kp LS(GRAVE)  &trans           &trans       &kp LA(NUMBER_3)  &kp UNDERSCORE  &trans       &trans     &trans         &trans        &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BACKSPACE
 &kp TILDE      &kp EXCLAMATION  &kp AT_SIGN  &kp HASH          &kp DOLLAR      &kp PERCENT  &kp CARET  &kp AMPERSAND  &kp ASTERISK  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp PIPE
 &trans         &trans           &kp BSLH     &kp FSLH          &kp MINUS       &kp DOT      &kp EQUAL  &kp PLUS       &kp ASTERISK  &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans
 &trans         &trans           &trans       &trans            &trans          &kp DELETE   &kp SPACE  &mo 3          &kp C_PREV    &kp HOME              &kp END                &kp C_NEXT

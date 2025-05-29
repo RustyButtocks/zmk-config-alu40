@@ -50,7 +50,7 @@
 &kp LEFT_GUI    &kp LCTRL  &kp LALT  &mt LG(SPACE) C_PP  &mo 1  &lt 5 BACKSPACE  &lt 4 SPACE  &mo 2  &kp LEFT   &kp DOWN  &kp UP    &kp RIGHT
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
+            sensor-bindings = <&inc_dec_kp C_VOLUME_DOWN C_VOL_UP>;
         };
 
         lower {
